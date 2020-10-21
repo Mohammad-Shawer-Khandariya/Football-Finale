@@ -10,29 +10,38 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <img src="./assets/Real Madrid FC.png" alt=""><br>
-            <span>0</span><br>
-            <span>1</span><br>
-            <span>1</span><br>
-            <span>0</span><br>
-            <span>1</span><br>
-        </div>
-        <div class="col2">
-            <span>3</span>
-            <span>-</span>
-            <span>3</span>
-        </div>
-        <div class="col3">
-            <img src="./assets/sd huesca.png" alt=""><br>
-            <span>1</span><br>
-            <span>1</span><br>
-            <span>1</span><br>
-            <span>0</span><br>
-            <span>0</span><br>
+            <img class="profile-icon" src="./assets/Real Madrid FC.png" alt="rmfc" height="150px" width="150px"><br>
+        <span class="name" id="team-1-name"> Real Madrid</span>
+        <div class="row round-scores" id="team-1-round-scores">
+            <span class="col">-</span><br>
+            <span class="col">-</span><br>
+            <span class="col">-</span><br>
+            <span class="col">-</span><br>
+            <span class="col">-</span><br>
         </div>
     </div>
-    <div class="row2">
-        <button>Try Again</button>
+        <div class="col">
+            <div class="row score">
+                <span id="team-1-score">0</span>
+                <span>-</span>
+                <span id="team-1-score">0</span>
+            </div>
+        </div>
+        <div class="col">
+            <img class="profile-icon" src="./assets/sd huesca.png" alt="" height="150px" width="150px"><br>
+        <span class="name" id="team-2-name">Huesca</span>
+        <div class="row round-scores" id="team-2-round-scores">
+            <span class="col">-</span><br>
+            <span class="col">-</span><br>
+            <span class="col">-</span><br>
+            <span class="col">-</span><br>
+            <span class="col">-</span><br>
+        </div>
+        </div>
+    </div>
+    <div class="row">
+        <button id="Try-again">Try Again</button>
+        <button id="strike-button">Huesca Strike</button>
     </div>
 
 </div>
