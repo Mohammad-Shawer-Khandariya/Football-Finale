@@ -22,7 +22,32 @@ margin-top: 100px;
     width: 100%;
     justify-content: space-evenly;
 }
-
+.container1{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    width: 300px;
+    padding: 50px;
+    margin-top: 150px;
+}
+.container > .row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.container2{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 700px;
+    padding: 50px;
+    margin-top: 100px;
+}
+.container > .row{
+    width: 100%;
+    justify-content: space-evenly;
+}
 .row{
     display: flex;
 }
@@ -40,6 +65,12 @@ margin-top: 100px;
 .profile-icon{
     border-radius: 50%;
     border: 2px solid bisque;
+}
+#circle{
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 10px;
+    height: 10px;
 }
 .score{
     font-size: xx-large;
@@ -62,6 +93,12 @@ margin-top: 100px;
     margin-top: 50px;
     margin-bottom: -50px;
     outline: none;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #Try-again{

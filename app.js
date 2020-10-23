@@ -37,3 +37,10 @@ updateName = ()=>{
     document.getElementById("team-1-name").textContent = team1.name;
     document.getElementById("team-1-name").textContent = team2.name;
 }
+var handleStrikeButtonClick = ()=>{
+    console.log("button click works")
+    var runs = score[Math.floor(Math,random()*score.length)];
+    console.log(runs);
+    runs = runs === 5? "W": runs;
+    console.log(runs);
+}
