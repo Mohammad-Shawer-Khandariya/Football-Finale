@@ -3,121 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Football Finale</title>
+    <link rel="stylesheet" href="./gStyle.css">
 </head>
-<body> 
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <img class="profile-icon" src="./assets/Real Madrid FC.png" alt="rmfc" height="150px" width="150px"><br>
-        <span class="name" id="team-1-name"> Real Madrid</span>
-        <div class="row round-scores" id="team-1-round-scores">
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-        </div>
-    </div>
-        <div class="col">
-            <div class="row score">
-                <span id="team-1-score"></span>
-                <span>-</span>
-                <span id="team-2-score"></span>
+<body >   
+    <div class="container">
+        <div class="row">
+            <div class="col column">
+                <img class="profile-icon" src="./assets/Manchester United.png" alt="Manchester logo" height="150px" width="150px">
+                <span class="name" id="team1-name"></span>
+                <div class="row">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <span id="team1-score"></span>
+                    <span> - </span>
+                    <span id="team2-score"></span>
+                </div>
+            </div>
+            <div class="col column">
+                <img class="profile-icon" src="./assets/RealMadrid.png" alt="RealMadrid logo" height="150px" width="150px">
+                <h1 class="name" id="team2-name"></h1>
+                <div class="row">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
             </div>
         </div>
-        <div class="col">
-            <img class="profile-icon" src="./assets/sd huesca.png" alt="" height="150px" width="150px"><br>
-        <span class="name" id="team-2-name">Huesca</span>
-        <div class="row round-scores" id="team-2-round-scores">
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-        </div>
+        <br />
+        <div class="row">
+            <button id="Try-again">Try Again</button>
+            <button id="shoot1-button">SHOOT</button>
         </div>
     </div>
-    <div class="row">
-        <button id="Try-again">Try Again</button>
-        <button id="strike-button"></button>
-    </div>
-</div>
-<div class="container1">
-    <div class="row">
-        <div class="col">
-            <img class="profile-icon" src="./assets/Real Madrid FC.png" alt="rmfc" height="150px" width="150px"><br>
-        <span class="name" id="team-3-name"> Real Madrid</span>
-        <div class="row round-scores" id="team-3-round-scores">
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-        </div>
-    </div>
-        <div class="col">
-            <div class="row score">
-                <span id="team-3-score"></span>
-                <span>-</span>
-                <span id="team-4-score"></span>
+    <div class="container">
+        <div class="row">
+            <div class="col column">
+                <img class="profile-icon" src="./assets/FCB.png" alt="FCB logo" height="150px" width="150px">
+                <span class="name" id="team3-name"></span>
+                <div class="row">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <span id="team3-score"></span>
+                    <span> - </span>
+                    <span id="team4-score"></span>
+                </div>
+            </div>
+            <div class="col column">
+                <img class="profile-icon" src="./assets/Manchester United.png"alt="Manchester logo" height="150px" width="150px">
+                <span class="name" id="team4-name"></span>
+                <div class="row">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
             </div>
         </div>
-        <div class="col">
-            <img class="profile-icon" src="./assets/sd huesca.png" alt="" height="150px" width="150px"><br>
-        <span class="name" id="team-4-name">Huesca</span>
-        <div class="row round-scores" id="team-4-round-scores">
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-        </div>
+        <br />
+        <div class="row">
+            <button id="Try-again">Try Again</button>
+            <button id="shoot2-button">SHOOT</button>
         </div>
     </div>
-    <div class="row">
-        <button id="Try-again">Try Again</button>
-        <button id="strike-button"></button>
-    </div>
-</div>
-<div class="container2">
-    <div class="row">
-        <div class="col">
-            <img class="profile-icon" src="./assets/Real Madrid FC.png" alt="rmfc" height="150px" width="150px"><br>
-        <span class="name" id="team-5-name"> Real Madrid</span>
-        <div class="row round-scores" id="team-5-round-scores">
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-        </div>
-    </div>
-        <div class="col">
-            <div class="row score">
-                <span id="team-5-score"></span>
-                <span>-</span>
-                <span id="team-6-score"></span>
+    <div class="container">
+        <div class="row">
+            <div class="col column">
+                <img class="profile-icon" src="./assets/SD Huesca.png" alt="SD logo" height="150px" width="150px">
+                <span class="name" id="team1-name"></span>
+                <div class="row">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <br />
+                    <span id="team1-score"></span>
+                    <span> - </span>
+                    <span id="team2-score"></span>
+                    
+                </div>
+            </div>
+            <div class="col column">
+                <img class="profile-icon" src="./assets/RealMadrid.png" alt="RealMadrid logo" height="150px" width="150px">
+                <span class="name" id="team2-name"></span>
+                <div class="row">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
             </div>
         </div>
-        <div class="col">
-            <img class="profile-icon" src="./assets/sd huesca.png" alt="" height="150px" width="150px"><br>
-        <span class="name" id="team-6-name">Huesca</span>
-        <div class="row round-scores" id="team-6-round-scores">
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-            <span class="col"><div id="circle"></div></span><br>
-        </div>
+        <div class="row">
+            <button id="Try-again">Try Again</button>
+            <button id="shoot1-button">SHOOT</button>
         </div>
     </div>
-    <div class="row">
-        <button id="Try-again">Try Again</button>
-        <button id="strike-button"></button>
-    </div>
-</div>
-<script src="app.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
