@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Football Finale</title>
-    <link rel="stylesheet" href="./gStyle.css">
+    <link rel="stylesheet" href="./Style.css">
 </head>
 <body >   
     <div class="container">
         <div class="row">
             <div class="col column">
-                <img class="profile-icon" src="./assets/Manchester United.png" alt="Manchester logo" height="150px" width="150px">
+                <img class="profile-icon" src="./assets/Manchester United.png" alt="Manchester" height="150px" width="150px">
                 <span class="name" id="team1-name"></span>
                 <div class="row">
                     <span class="circle"></span>
@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="col column">
-                <img class="profile-icon" src="./assets/RealMadrid.png" alt="RealMadrid logo" height="150px" width="150px">
+                <img class="profile-icon" src="./assets/RealMadrid.png" alt="RealMadrid" height="150px" width="150px">
                 <h1 class="name" id="team2-name"></h1>
                 <div class="row">
                     <span class="circle"></span>
@@ -41,8 +41,8 @@
         </div>
         <br />
         <div class="row">
-            <button id="Try-again">Try Again</button>
-            <button id="shoot1-button">SHOOT</button>
+            <button id="Try-again" onclick="tryAgain()">Try Again</button>
+            <button id="shoot1-button" onclick="handleStrikeButtonClick()">SHOOT</button>
         </div>
     </div>
     <div class="container">
@@ -77,10 +77,9 @@
                 </div>
             </div>
         </div>
-        <br />
         <div class="row">
-            <button id="Try-again">Try Again</button>
-            <button id="shoot2-button">SHOOT</button>
+            <button id="Try-again" onclick="tryAgain()">Try Again</button>
+            <button id="shoot2-button" onclick="handleStrike2ButtonClick()">SHOOT</button>
         </div>
     </div>
     <div class="container">
@@ -119,7 +118,7 @@
         </div>
         <div class="row">
             <button id="Try-again">Try Again</button>
-            <button id="shoot1-button">SHOOT</button>
+            <button id="shoot1-button" onclick="handleStrike2ButtonClick()">SHOOT</button>
         </div>
     </div>
     <script src="./app.js"></script>
